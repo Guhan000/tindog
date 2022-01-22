@@ -1,0 +1,163 @@
+body {
+    font-family: "Montserrat";
+}
+
+#title {
+    background-color: #ff4c68;
+}
+h1 {
+    font-family: "Montserrat, sans-serif";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: #fff;
+}
+
+.container-fluid{
+    padding: 3%  15% 2% ;
+}
+
+/* Navigation bar  */
+
+.navbar {
+    padding:0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+
+.img {
+    width: 60%;
+    transform : rotate(25deg);
+    margin: auto auto -20rem 50px;
+    
+}
+
+.download-btn{
+    margin: 5% 3% 5% 0;   
+}
+
+/* Features */
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    text-align: center;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+h3 {
+    font-family: "Montserrat-Bold";
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.icon {
+color: #ef8172;
+}
+
+i:hover {
+    color: #ff4c68;
+}
+
+/* Testimonial */
+#testimonials{
+    background-color: #ef8172;
+    
+    color: #fff;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3rem;
+    font-family: "Montserrat-Bold";
+    line-height: 1.5;
+}
+
+.testimonial-img {
+    margin: 20px;
+    width: 10%;
+    border-radius: 100%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.press-img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 5% 3%;
+}
+
+@media (max-width: 1024px) {
+
+    #title {
+        text-align: center;
+    }
+    .col-lg-6 .img{
+        position:static;
+        transform: rotate(0);
+        margin: 30px 0 0;
+    }
+}
+
+#cta {
+    padding: 7rem 3rem 7rem 3rem;
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+.cta-button {
+    margin : 20px 20px;
+}
+
+#footer {
+    margin: 6rem 5rem 6rem 5rem;
+    text-align: center;
+
+}
+
+.cta-h3 {
+    color: #fff;
+    font-size: 3rem;
+}
+
+.footer-icon {
+    margin:10px;
+}
